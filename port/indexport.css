@@ -1,0 +1,207 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  margin: 0 auto;
+  background: #ffffff;
+  overflow: hidden;
+}
+.graphic {
+  position: absolute;
+  width: 865px;
+  height: 2096px;
+  top: -525px;
+  left: -283px;
+  background: url(./assets/images/16975df80101986463b3bd8a287c7de02c598b8e.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 1;
+}
+.d-de {
+  position: relative;
+  width: 216px;
+  height: 432px;
+  margin: 1192px 0 0 283px;
+  background: url(./assets/images/fa4915832ae18cdf2db4386048789ab5be76f135.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 11;
+}
+.rectangle {
+  position: absolute;
+  width: 1440px;
+  height: 1024px;
+  top: 0;
+  left: 0;
+  background: url(./assets/images/4a40a3aa-bdc6-416b-9a56-009ffab82ae2.png)
+    no-repeat center;
+  background-size: cover;
+}
+.header {
+  position: absolute;
+  width: 785px;
+  height: 151px;
+  top: 0;
+  left: 655px;
+  background: #2585b5;
+  z-index: 3;
+  overflow: hidden;
+}
+.flex-row-a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 663px;
+  height: 29px;
+  margin: 66px 0 0 101px;
+  z-index: 9;
+}
+.about-us {
+  flex-shrink: 0;
+  position: relative;
+  height: 29px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  text-align: left;
+  text-decoration: underline;
+  white-space: nowrap;
+  z-index: 4;
+}
+.portfolio {
+  flex-shrink: 0;
+  position: relative;
+  height: 29px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 7;
+}
+.contact-us {
+  flex-shrink: 0;
+  position: relative;
+  height: 29px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  text-align: left;
+  text-decoration: underline;
+  white-space: nowrap;
+  z-index: 9;
+}
+.flex-row-abc {
+  position: relative;
+  width: 560px;
+  height: 29px;
+  margin: 7px 0 0 11px;
+  z-index: 8;
+}
+.home {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 29px;
+  top: 0;
+  left: 0;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  text-align: left;
+  text-decoration: underline;
+  white-space: nowrap;
+  z-index: 5;
+}
+.services {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 29px;
+  top: 0;
+  left: 231px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  text-align: left;
+  text-decoration: underline;
+  white-space: nowrap;
+  z-index: 6;
+}
+.events {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 29px;
+  top: 0;
+  left: 483px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  text-align: left;
+  text-decoration: underline;
+  white-space: nowrap;
+  z-index: 8;
+}
+.video {
+  position: absolute;
+  width: 722px;
+  height: 546px;
+  top: 272px;
+  left: 664px;
+  background: url(./assets/images/bb8d3c4f5a253a06e16ecff99de95f889eae56f7.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 10;
+}
+.footer {
+  position: absolute;
+  width: 785px;
+  height: 151px;
+  top: 873px;
+  left: 655px;
+  cursor: pointer;
+  background: #2585b5;
+  border: none;
+  z-index: 2;
+  overflow: hidden;
+}
